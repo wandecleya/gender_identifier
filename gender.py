@@ -12,5 +12,9 @@ for line in file:
         else:
             unique_names[first_name] = 1
 
+counter = 0
 for k, v in unique_names.items():
-	print (k + " " + str(v))
+    print (k + " " + str(v))
+    counter += 1
+
+print ("\n"+  "Total " + str(counter))
